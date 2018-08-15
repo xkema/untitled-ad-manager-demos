@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A collection of demo files for ad manager related assets",
   "main": "index.js",
-  "dependencies": {
-    "animate.css": "^3.7.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
