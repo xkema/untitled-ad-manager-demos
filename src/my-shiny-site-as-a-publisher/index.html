@@ -7,16 +7,16 @@
   <meta name="author" content="xkema">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- favicon -->
-  <link rel="icon" type="image/png" href="../assets/img/favicon-shiny.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon-shiny-pink.png">
   <!-- fonts -->
   <link href="../assets/vendor/BLOKKNeue-Regular/blokkfont.css" rel="stylesheet" type="text/css">  
   <!-- styles -->
-  <link rel="stylesheet" href="../assets/vendor/Skeleton-2.0.4/css/normalize.css">
-  <link rel="stylesheet" href="../assets/vendor/Skeleton-2.0.4/css/skeleton.css">
-  <link rel="stylesheet" href="../assets/css/main-shiny.css">
-  <link rel="stylesheet" href="../../node_modules/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../assets/vendor/Skeleton-2.0.4/css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="../assets/vendor/Skeleton-2.0.4/css/skeleton.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/main-shiny.css" type="text/css">
+  <link rel="stylesheet" href="../../node_modules/animate.css/animate.min.css" type="text/css">
   <!-- scripts -->
-  <script type="text/javascript" src="../assets/js/main-shiny.js"></script>
+  <script type="text/javascript" src="../assets/js/main-shiny-index.js"></script>
 </head>
 <body>
 
@@ -44,10 +44,10 @@
   <section class="container" id="stick-top-top-as-nav">
     <div class="row">
       <div class="twelve columns">
-        <nav id="site-nav">
-          <a href="./index.html" class="button">Home</a>
-          <a href="#" class="button">Category</a>
-          <a href="#" class="button">Category Detail</a>
+        <nav id="site-nav" class="clearfix">
+          <a href="./index.html" class="button active">Home</a>
+          <a href="./category.html" class="button">Category</a>
+          <a href="./category-detail.html" class="button">Category Detail</a>
         </nav>
       </div>
     </div>
@@ -149,10 +149,13 @@
         <button class="button" id="show-slot-containers">Show Slot Containers</button>
       </li>
       <li>
+        <button class="button" id="show-popup-container">Show Popup Container</button>
+      </li>
+      <li>
         <button class="button" id="toggle-sticky-nav">Toggle Sticky Navigation</button>
       </li>
       <li>
-        <button class="button" id="show-popup-container">Show Popup Container</button>
+        <button class="button" id="toggle-sticky-container">Toggle Sticky Container</button>
       </li>
     </ul>
   </div>

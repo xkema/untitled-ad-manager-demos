@@ -7,7 +7,8 @@ body {
 
 #site-nav {
   background: #efefef;
-  padding: .5rem 0;
+  padding: .5rem .5rem;
+  display: block;
 }
 #site-nav > a {
   border: none;
@@ -16,13 +17,18 @@ body {
   padding: 0;
   height: auto;
   line-height: 1.5;
-  padding: 2px 8px;
-  margin-bottom: 0;
+  padding: 8px 12px;
+  margin: 0;
+  display: inline-block;
+  float: left;
 }
 #site-nav > a:last-child {
   border: none;
 }
 #site-nav > a:hover {}
+#site-nav > a.active {
+  background: #ccc;
+}
 .stick-top-top-as-nav {
   position: sticky;
   top: 0;
@@ -33,10 +39,30 @@ section.container {
   margin-bottom: 2rem;
 }
 
+.code-explanation {}
+.code-explanation button {}
+.code-explanation pre {
+  margin: 0 0 1rem 0;
+}
+.code-explanation pre code {
+  padding: .5rem 2rem;
+}
+
+.site-sidebar {
+  border: 5px solid #eee;
+  padding: 2rem;
+}
+.site-sidebar .slot-container {
+  margin-bottom: 2rem;
+}
+.site-sidebar p:last-child {
+  margin-bottom: 0;
+}
+
 /* @ */
 .blokk-content {
   font-family: 'BLOKK';
-  padding: .25rem;
+  
 }
 
 /* @ */
@@ -45,7 +71,7 @@ section.container {
   position: relative;
   z-index: 7000;
 }
-.slot-container.hidden {
+.hidden {
   display: none !important;
 }
 .sticky-container {}
@@ -71,6 +97,7 @@ section.container {
   bottom: 1rem;
   right: 1rem;
   padding: 2rem;
+  z-index: 8000;
 }
 #control-panel button {
   width: 100%;
@@ -98,9 +125,20 @@ section.container {
   border-radius: .5rem;
   display: block;
   z-index: 9000;
+  box-shadow: 0 0 250px 150px rgba(50, 50, 50, .25);
 }
 
 /* @ */
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* @ */
+.text-center {
+  text-align: center;
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
@@ -110,6 +148,9 @@ section.container {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+  #site-nav {
+    padding: .5rem .5rem;
+  }
   #site-nav > a {
     line-height: 38px;
     padding: 0 30px;

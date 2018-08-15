@@ -1,7 +1,8 @@
 const Shiny = ((window, document) => {
   return {
+
     /**
-     *
+     * Boot things up :)
      */
     init: () => {
       console.log('Shiny template initialized!');
@@ -16,9 +17,12 @@ const Shiny = ((window, document) => {
       // toggle sticky nav
       const btnToggleStickyNav = document.getElementById('toggle-sticky-nav');
       btnToggleStickyNav.addEventListener('click', Shiny.toggleStickyNavigation);
-      // show popup ccontainer
+      // show popup container
       const btnShowPopupContainer = document.getElementById('show-popup-container');
       btnShowPopupContainer.addEventListener('click', Shiny.showPopupContainer);
+      // toggle sticky container
+      const btnToggleStickyContainer = document.getElementById('toggle-sticky-container');
+      btnToggleStickyContainer.addEventListener('click', Shiny.toggleStickyContainer);
     },
 
     /**
@@ -66,6 +70,12 @@ const Shiny = ((window, document) => {
       if(null !== stickyContainer) {
         const stickyContainerWrapper = stickyContainer.querySelector('.sticky-container-wrapper');
         if(null !== stickyContainerWrapper) {
+          // toggle behaviour
+          if(!Shiny.stickyContainerEnabled){
+            stickyContainerWrapper.classList.remove('container-stuck');
+            stickyContainerWrapper.style.top = 'unset';
+            return;
+          }
           stuckPosition = parseInt(stickyContainerWrapper.dataset.sticky);
           const rect = stickyContainer.getBoundingClientRect();
           if(stuckPosition >= rect.top) {
@@ -88,7 +98,22 @@ const Shiny = ((window, document) => {
       siteNavigationContainerToBeSticky.classList.toggle('stick-top-top-as-nav');
     },
 
+    /**
+     * A flag to toggle sticky ad container
+     */
+    stickyContainerEnabled: false,
+
+    /**
+     * Sticky ad container toggler
+     */
+    toggleStickyContainer: (event) => {
+      event.target.classList.toggle('button-primary');
+      Shiny.stickyContainerEnabled = !Shiny.stickyContainerEnabled;
+      Shiny.scrollWatcher();
+    }
+
   };
+
 })(window, document);
 
 // app initialization
