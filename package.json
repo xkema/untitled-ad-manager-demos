@@ -1,0 +1,23 @@
+{
+  "name": "untitled-ad-manager-demos",
+  "version": "1.0.0",
+  "description": "A collection of demo files for ad manager related assets",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkema/untitled-ad-manager-demos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xkema/untitled-ad-manager-demos/issues"
+  },
+  "homepage": "https://github.com/xkema/untitled-ad-manager-demos#readme"
+}

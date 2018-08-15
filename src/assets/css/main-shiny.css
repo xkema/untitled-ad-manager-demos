@@ -1,0 +1,123 @@
+/* @ */
+body {
+  padding: 4rem 2rem;
+  /* native font stack (from bootstrap 4) */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji","Segoe UI Symbol";
+}
+
+#site-nav {
+  background: #efefef;
+  padding: .5rem 0;
+}
+#site-nav > a {
+  border: none;
+  border-right: 1px solid #ccc;
+  border-radius: 0;
+  padding: 0;
+  height: auto;
+  line-height: 1.5;
+  padding: 2px 8px;
+  margin-bottom: 0;
+}
+#site-nav > a:last-child {
+  border: none;
+}
+#site-nav > a:hover {}
+.stick-top-top-as-nav {
+  position: sticky;
+  top: 0;
+  z-index: 8000;
+}
+
+section.container {
+  margin-bottom: 2rem;
+}
+
+/* @ */
+.blokk-content {
+  font-family: 'BLOKK';
+  padding: .25rem;
+}
+
+/* @ */
+.slot-container {
+  text-align: center;
+  position: relative;
+  z-index: 7000;
+}
+.slot-container.hidden {
+  display: none !important;
+}
+.sticky-container {}
+.sticky-container-wrapper {}
+.sticky-container-wrapper.container-stuck {
+  position: fixed;
+}
+
+/* @ */
+.site-image {
+
+}
+
+/* @ */
+.slot-container:not(.hidden) ~ .site-image {
+  display: none !important;
+}
+
+/* @ */
+#control-panel {
+  background: #efefef;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 2rem;
+}
+#control-panel button {
+  width: 100%;
+  margin: 0
+}
+#control-panel ul {
+  list-style: none;
+  margin: 0;
+}
+#control-panel ul > li:last-child {
+  margin: 0
+}
+
+/* @ */
+#slot-container-popup {
+  width: 360px;
+  height: auto;
+  position: fixed;
+  left: 50%;
+  margin-left: -180px;
+  top: 20%;
+  background: #eee;
+  padding: 2rem;
+  border: 4px solid #ddd;
+  border-radius: .5rem;
+  display: block;
+  z-index: 9000;
+}
+
+/* @ */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  #site-nav > a {
+    line-height: 38px;
+    padding: 0 30px;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
