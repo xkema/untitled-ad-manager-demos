@@ -1,12 +1,14 @@
 # issues
 
+- grouped by bad parts
+
 ## design related issues
 
 - style related
   - **demo#0**
     - [first steps](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/)
 - behavioral
-- maintaining 19 different projects see [#information-architecture](#information-architecture)
+- maintaining 19 different projects see [#information-architecture-related-issues](##information-architecture-related-issues)
 
 ## information architecture related issues
 
