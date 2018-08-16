@@ -1,22 +1,23 @@
 # issues
 
-## design
-
-[Shiny Template](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher)
+## design related issues
 
 - style related
+  - **demo#0**
+    - [first steps](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/)
 - behavioral
 - maintaining 19 different projects see [#information-architecture](#information-architecture)
 
-## information architecture
+## information architecture related issues
 
-**@todo** add ad request cycle diagrams from google drive
+- lifecycle for ad slots on a page
+
+![screen-untitled-dfp-app-ad-communications-flow](images/screen-untitled-dfp-app-ad-communications-flow.png)
 
 - missing `<meta>` tags
 - missing ad unit tails
-- ad manager related shortcomings
-  - reporting issues???
-- natural inabilities:
+- **demo#1**
+  - [placing ads to page manually](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/category.html)
 
 ```
 # single site ia layout
@@ -37,6 +38,12 @@ site
   |__ content-type-N
 ```
 
+- ad manager related shortcomings
+  - reporting issues???
+- no async behaviour
+  - **demo#2**
+    - [final page](http://localhost:3004/src/my-shiny-site-as-a-publisher/category-detail.html)
+
 ### number of variations
 
 <u>Total Number of Injections In Use</u>: **1445** 
@@ -47,7 +54,7 @@ site
 
 > 309 web\|tablet\|mobile `content-type`, 5 ad slots per `content-type`
 
-## 3rd party
+## 3rd party  related issues
 
 - tr scenario
   - no online documentation
@@ -58,7 +65,7 @@ site
 - insiders\*
 - bonus system\*
 
-## communication
+## communication  related issues
 
 - all parties are related to each other, but some parties communicate
 - advertiser's problem is developer's problem
@@ -66,8 +73,9 @@ site
   - physical disadvantage
   - communication channel expands
 
-## code base
+## code base  related issues
 
+- git flow
 - `%6` test coverage
 - tightly coupled to current developer(s)
 - `harmonyjs` dependency
@@ -78,7 +86,7 @@ site
   - by traffickers
 - customization hell
 
-
+![screen-dygdfp-git-workflow](images/screen-dygdfp-git-workflow.png)
 
 
 

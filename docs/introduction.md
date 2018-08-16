@@ -1,5 +1,7 @@
 # introduction
 
-**@todo** add all parties diagram from google drive
+## publisher - advertiser - 3rd party - developer chart
 
-publisher - advertiser - 3rd party
+![untitled-communication-flow-doc](images/untitled-communication-flow-doc.png)
+
+move to [issues.md](./issues.md)
