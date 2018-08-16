@@ -45,7 +45,7 @@ site
   - reporting issues???
 - no async behaviour
   - **demo#2**
-    - [final page](http://localhost:3004/src/my-shiny-site-as-a-publisher/category-detail.html)
+    - [final page](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/category-detail.html)
 
 ### number of variations (2.1)
 
