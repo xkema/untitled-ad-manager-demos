@@ -7,6 +7,7 @@
 - style related
   - **demo#0**
     - [first steps](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/)
+    - **don't forget to**: *<u>deactivate ad-blockers, privacy protecters for demo</u>*
 - behavioral
 - maintaining 19 different projects see [#information-architecture-related-issues](##information-architecture-related-issues)
 
