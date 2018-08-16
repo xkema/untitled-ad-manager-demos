@@ -41,13 +41,13 @@ site
 
 <u>Total Number of Injections In Use</u>: **1445** 
 
-> 290 web|tablet|mobile `content-type`, 5 ad slots per `content-type`
+> 290 web\|tablet\|mobile `content-type`, 5 ad slots per `content-type`
 
 <u>Total Number of Injections Expected by Crawler</u>: **1545**
 
-> 309 web|tablet|mobile `content-type`, 5 ad slots per `content-type`
+> 309 web\|tablet\|mobile `content-type`, 5 ad slots per `content-type`
 
-## 3rd Party
+## 3rd party
 
 - tr scenario
   - no online documentation
@@ -58,7 +58,7 @@ site
 - insiders\*
 - bonus system\*
 
-## Communication
+## communication
 
 - all parties are related to each other, but some parties communicate
 - advertiser's problem is developer's problem
@@ -66,7 +66,7 @@ site
   - physical disadvantage
   - communication channel expands
 
-## Code Base
+## code base
 
 - `%6` test coverage
 - tightly coupled to current developer(s)
