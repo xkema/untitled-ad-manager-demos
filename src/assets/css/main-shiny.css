@@ -112,6 +112,13 @@ section.container {
 }
 
 /* @ */
+#slot-container-pageskin {
+  top: 16.5rem;
+  left: calc((100% - 960px) / 2 - 160px - 20px);
+  position: fixed;
+}
+
+/* @ */
 #slot-container-popup {
   width: 360px;
   height: auto;
