@@ -6,7 +6,7 @@
 
 - style related
   - **demo#0**
-    - [first steps](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/)
+    - [first steps](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/index.html)
     - **don't forget to**: *<u>deactivate ad-blockers, privacy protecters for demo</u>*
 - behavioral
 - maintaining 19 different projects see [#information-architecture-related-issues](##information-architecture-related-issues)
@@ -20,7 +20,7 @@
 - missing `<meta>` tags
 - missing ad unit tails
 - **demo#1**
-  - [placing ads to page manually](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/category.html)
+  - [placing ads to page manually](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/gpt-tags.html)
 
 ```
 # single site ia layout
@@ -45,7 +45,7 @@ site
   - reporting issues???
 - no async behaviour
   - **demo#2**
-    - [final page](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/category-detail.html)
+    - [final page](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/async-tags.html)
 
 ### number of variations (2.1)
 
