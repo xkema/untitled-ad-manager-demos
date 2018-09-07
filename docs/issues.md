@@ -7,7 +7,7 @@
 - style related
   - **demo#0 (ad placement)**
     - [first steps](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/index.html)
-    - **don't forget to**: *<u>deactivate ad-blockers, privacy protecters for demo</u>*
+    - **don't forget to**: *<u>deactivate ad-blockers & privacy protecters for demo</u>*
 - behavioral
 - maintaining 19 different projects see [#information-architecture-related-issues-2](#information-architecture-related-issues-2)
 
@@ -68,8 +68,16 @@ site
 - insiders\*
 - bonus system\*
 
-## Communication Related Issues (4)
+## Communication & Know-How Related Issues (4)
 
+- why in an earth a javascript developer answers questions relates to:
+  - ad operations
+  - sales
+  - web sites' internal architecture
+  - advertiser & 3rd party issues
+  - project status (status related to project management)
+  - cretive design related issues
+  - ad integration to AMP pages
 - all parties are related to each other, but some parties communicate
 - advertiser's problem is developer's problem
 - dt boosts:
