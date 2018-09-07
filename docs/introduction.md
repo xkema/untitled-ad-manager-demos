@@ -1,14 +1,14 @@
-# introduction
+# Introduction
 
 Goals to achieve:
 
 >  explain "**the problem**" we're solving has <u>nothing to do</u> with "**ad serving**"
 
-## publisher - advertiser - 3rd party - developer chart
+## Publisher - Advertiser - 3rd Party - Developer Chart
 
 ![untitled-communication-flow-doc](images/untitled-communication-flow-doc.png)
 
-click to skip basic terms and move to [issues.md](./issues.md)
+click [issues.md](./issues.md) to skip basic terms and move to issues document
 
 ## who is \_\_\_\_\_?
 
@@ -64,11 +64,11 @@ Ad Manager allows access to Ad Exchange accounts directly from Ad Manager interf
 
 Both AdSense and Ad Exchange provide access to millions of buyers while Ad Exchange provides granular controls over direct sales effort. See comparison [here](https://support.google.com/admanager/answer/4599464?hl=en).
 
-### ad server
+### Ad Server
 
 <u>Ad Server</u> is a web server (and all services relates to ad serving) where the advertising material stored and distributed.
 
-### inventory, ad unit, placement, key-values
+### Inventory, Ad Unit, Placement, Key-Values
 
 <u>Inventory</u> is the items we're selling to advertisers, sellable inventory. Our sites and apps are all inventory. (basicly all empty spaces on a website)
 
@@ -86,13 +86,13 @@ See Inventory Planning section of [Help Pages](https://support.google.com/admana
 
 <u>Key-Values</u> are extra information pairs to specifically match adunit's ad tag and line items & creatives, key-values are information sets hold ***not personally identifiable*** data. Key-Values form targeting by defining specific identifiers to page or directly to an ad tag.
 
-### ad tag
+### Ad Tag
 
 A piece of code to be inserted into the source code of the page.
 
 It consists of ad unit, placement, key-values, size etc..  and represents the space the ad will show up.
 
-### order
+### Order
 
 Once sales team sells an inventory to an advertiser, an order needs to be set up in Ad Manager. Order represents that campaign set up by publisher and advertiser. 
 
@@ -100,58 +100,88 @@ Once sales team sells an inventory to an advertiser, an order needs to be set up
 >
 > acme inc. > summer campaign > mobile leaderboard 320x50 > some jpeg images
 
-#### line item
+#### Line Item
 
 Specifics of the order; total numbers of impressions, ad units, date, targeting , ...
 
-##### creative
+##### Creative
 
 Actual display files of the advertisement campaign. Possible types; Image, HTML5, 3rd Party, DoubleClick Tag etc..
 
-### an ad request lifecycle
+### An Ad Request Lifecycle
 
 - Request reaches Ad Manager
 - Ad Manager filters eligible Line Items
 - Checks Ad Exchange for highest paying add (if set)
 - Select and serve ads
 
-### header bidding
+> see **what is dfp** infographic above for detailed visual
+
+### Header Bidding
 
 Communication of an ad server through some custom header bidding code (as in `Criteo`) implemented in publishers webpage or mobile app (as in `publisher.js`)
 
-### exchange bidding
+### Exchange Bidding
 
 Lets Ad Manager ad server communicate directly with thid-party ad exchanges in a server-to-server connection (reduces page load latency and complex publisher configuration)
 
-### iab
+### IAB
 
 A nonprofit research & development consortium to help media and advertising companies implementing global technical standarts related to digital media and advertising.
 
 [https://www.iab.com](https://www.iab.com)
 
-### better ads
+### Better Ads Standarts
 
 The Coalition for Better Ads is a coalition to improve consumer experience with advertising. Coalition develops and implements consumer friendly ad contents by using [various research](https://www.betterads.org/research/).
 
-### safeframe
+### SafeFrame
 
 An API enabled cross-domain `iframe`. Provides controlled communication between advertiser content and publisher content. (publisher content have to protect itself from unwanted access while providing a communication channel between these two, with this communication channel advertiser may collect data for viewability purposes or expand `iframe` size to show detailed creatives to user on demand)
 
-### reporting
+### Friendly Frame
+
+An `<iframe>` eliminates; cross-site scripting limitations, iframe expanding limitations, dynamic ad size placement limitations, etc..
+
+See note from [related IAB document](https://www.iab.com/wp-content/uploads/2015/09/rich_media_ajax_best_practices.pdf):
+
+> ... the ads may make calls to document.write which interferes with the rest of an AJAX-based webpage. In order to solve these problems, the Ad Ops Council recommends a Friendly IFrame (FIF) solution...
+
+### Request Mode
+
+<u>Single Request Architecture</u>, SRA. All ad requests are sent to Ad Manager server at one time. (recommended request mode by Google)
+
+A single `googletag.display` method call triggers all requests by a single one, first display call on a page does this.
+
+<u>Multi-request</u>, each ad request is sent to Ad Manager separately from the body content, by the order of their appearance on DOM. Individual `googletag.display` method calls trigger an ad request to the corresponding ad slot.
+
+>we don't use SRA, even if we use, lazyloading and on-demand slot creation prevents async pattern
+
+### Rendering Mode
+
+<u>Asynchronous</u> allows content and ad slots to load separately. (recommended request mode by Google) Ads don't block page content and page content vice versa.
+
+<u>Synchronous</u> Ad slots renders directly on the page, content blocks ad slot rendering, ad slots block content rendering.
+
+SRA + Asynchronous combination is the recommended way.
+
+> we use asynchronous rendering mode but act like synchronous
+
+### Reporting
 
 Actual measured resulting numbers of campaign. Holy resulting data.
 
-### remarketing
+### Remarketing
 
 Showing ads to people who've visited a website or mobile app previously. (remarketing reconnects people left your site without buying anything)
 
-### ads.txt
+### Ads.txt
 
 Declares a list of digital sellers to improve transperancy in programmatic advertising. (Authorized Digital Sellers is an initiative from IAB)
 
 File keeps the list of advertisers authorized to sell our own inventory
 
-### amp, amp ads
+### AMP, AMP Ads
 
 An open source library to build up fast & smooth mobile web pages. AMP sites are cached and served by Google. Library has a component-based architecture, all components have their uniqe interface.
 
@@ -162,9 +192,10 @@ An open source library to build up fast & smooth mobile web pages. AMP sites are
 - use `http` in any content or component (`https` is mandatory)
 -  define custom behaviours (expand collapse buttons, resize containers, ...)
 
-## useful links
+## Useful Links
 
 - [https://support.google.com/admanager](https://support.google.com/admanager) [ad manager support page]
 - [https://developers.google.com/doubleclick-gpt/reference](https://developers.google.com/doubleclick-gpt/reference) [gpt developer reference]
 - [https://publisheruniversity.withgoogle.com](https://publisheruniversity.withgoogle.com) [publisher university home]
-- [https://www.iab.com/](https://www.iab.com/) [interactive advertising bureau official site]
+- [https://www.iab.com](https://www.iab.com) [interactive advertising bureau official site]
+- [https://dfpgpt.appspot.com](https://dfpgpt.appspot.com) [tag generator app]

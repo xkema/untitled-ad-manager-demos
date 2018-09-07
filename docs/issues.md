@@ -1,8 +1,8 @@
-# issues
+# Issues
 
 - grouped by bad parts
 
-## design related issues (1)
+## Design Related Issues (1)
 
 - style related
   - **demo#0 (ad placement)**
@@ -11,7 +11,7 @@
 - behavioral
 - maintaining 19 different projects see [#information-architecture-related-issues-2](#information-architecture-related-issues-2)
 
-## information architecture related issues (2)
+## Information Architecture Related Issues (2)
 
 - lifecycle for ad slots on a page
 
@@ -47,7 +47,7 @@ site
   - **demo#2 (gpt async tags)**
     - [final page](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/async-tags.html)
 
-### number of variations (2.1)
+### Number of Variations (2.1)
 
 <u>Total Number of Injections In Use</u>: **1445** 
 
@@ -57,7 +57,7 @@ site
 
 > 309 web\|tablet\|mobile `content-type`, 5 ad slots per `content-type`
 
-## 3rd party  related issues (3)
+## 3rd Party Related Issues (3)
 
 - tr scenario
   - no online documentation
@@ -68,7 +68,7 @@ site
 - insiders\*
 - bonus system\*
 
-## communication  related issues (4)
+## Communication Related Issues (4)
 
 - all parties are related to each other, but some parties communicate
 - advertiser's problem is developer's problem
@@ -76,7 +76,7 @@ site
   - physical disadvantage
   - communication channel expands
 
-## code base  related issues (5)
+## Code Base Related Issues (5)
 
 - git flow
 - `%6` test coverage
