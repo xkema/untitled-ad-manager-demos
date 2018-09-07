@@ -82,6 +82,7 @@ site
 - `%6` test coverage
 - tightly coupled to current developer(s)
 - `harmonyjs` dependency
+- `jQuery` dependency (for site events)
 - documented but! [http://xdfp.westeurope.cloudapp.azure.com/docs/reference](http://xdfp.westeurope.cloudapp.azure.com/docs/reference)
 - not scalable, expands to unknown
 - not-measured
