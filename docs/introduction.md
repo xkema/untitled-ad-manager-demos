@@ -139,6 +139,8 @@ The Coalition for Better Ads is a coalition to improve consumer experience with 
 
 An API enabled cross-domain `iframe`. Provides controlled communication between advertiser content and publisher content. (publisher content have to protect itself from unwanted access while providing a communication channel between these two, with this communication channel advertiser may collect data for viewability purposes or expand `iframe` size to show detailed creatives to user on demand)
 
+See SafeFrame guideline at IAB [SafeFrame Guidelines page](https://www.iab.com/guidelines/safeframe)
+
 ### Friendly Frame
 
 An `<iframe>` eliminates; cross-site scripting limitations, iframe expanding limitations, dynamic ad size placement limitations, etc..
