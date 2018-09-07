@@ -39,6 +39,15 @@ section.container {
   margin-bottom: 2rem;
 }
 
+footer nav a {
+  color: #333;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  font-size: 80%;
+  clear: both;
+}
+
 .code-explanation {}
 .code-explanation button {}
 .code-explanation pre {
