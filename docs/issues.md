@@ -15,7 +15,7 @@
 
 - lifecycle for ad slots on a page
 
-![screen-untitled-dfp-app-ad-communications-flow](images/screen-untitled-dfp-app-ad-communications-flow.png)
+![lifecycle-of-an-ad-slot](https://docs.google.com/drawings/d/e/2PACX-1vTiFL3QENKDnsUH7IgUYVJWuWKG1-HzV0s3jndgzhhzSso0czZDVSEzQKsuY9rR5QapkDnHA00y2C_O/pub?w=2259&h=1206)
 
 - missing `<meta>` tags
 - missing ad unit tails
@@ -89,7 +89,7 @@ site
   - by traffickers
 - customization hell
 
-![screen-dygdfp-git-workflow](images/screen-dygdfp-git-workflow.png)
+![dygdfp-git-workflow](https://docs.google.com/drawings/d/e/2PACX-1vRkMWMF1TXc8leTetl_vLc-uEfavnIFR6Sr4wVOcnKJkOvipTtJr4qZlDBacyIDaN9c-BI1cSFCDzt6/pub?w=1265&h=807)
 
 
 

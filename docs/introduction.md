@@ -6,7 +6,7 @@ Goals to achieve:
 
 ## Publisher - Advertiser - 3rd Party - Developer Chart
 
-![untitled-communication-flow-doc](images/untitled-communication-flow-doc.png)
+![internal-communication-flow](https://docs.google.com/drawings/d/e/2PACX-1vSQMhk8FKMSM18S8nNvGutYmG97-i-wmiAZ419OP9_0CRvWoejuQ-Z0wK7clQIpV2yvIjup6I50ylzC/pub?w=2235&h=1800)
 
 click [issues.md](./issues.md) to skip basic terms and move to issues document
 
