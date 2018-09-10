@@ -51,7 +51,7 @@ site
   - reporting issues `???`
 - no async behaviour
   - **demo#2 (gpt async tags)**
-    - [final page](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/async-tags.html)
+    - [final page](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/async-tags.html) (enable  network throttling on DevTools)
       - intro page, normal loading with blocker script `don't wait`
       - first wait `DOMContentLoaded` event then load ads `wait for dom`
       - first wait `load` event then load ads `wait for load`
