@@ -7,6 +7,10 @@
 - style related
   - **demo#0 (ad placement)**
     - [first steps](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/index.html)
+      - plain page `hide slot containers`
+      - ad occupied page `show slot containers`
+      - convert static container to sticky `toggle sticky container`
+      - make site nav element sticky along with sticky container `toggle sticky navigation`
     - **don't forget to**: *<u>deactivate ad-blockers & privacy protecters for demo</u>*
 - behavioral
 - maintaining 19 different projects see [#information-architecture-related-issues-2](#information-architecture-related-issues-2)
@@ -18,9 +22,11 @@
 ![lifecycle-of-an-ad-slot](https://docs.google.com/drawings/d/e/2PACX-1vTiFL3QENKDnsUH7IgUYVJWuWKG1-HzV0s3jndgzhhzSso0czZDVSEzQKsuY9rR5QapkDnHA00y2C_O/pub?w=2259&h=1206)
 
 - missing `<meta>` tags
-- missing ad unit tails
+- missing ad unit tails (`*/MPU1`, `*/LDB`, `*/L-SKIN`, ...)
 - **demo#1 (gpt tags)**
   - [placing gpt ads to page by offered method](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/gpt-tags.html)
+    - show code blocks for tags `toggle code snippets`
+  - [tag generator app](https://dfpgpt.appspot.com), [pre-configured](https://dfpgpt.appspot.com/g/+5dHXG-ng) tags with demo network
 
 ```
 # single site ia layout
@@ -42,10 +48,13 @@ site
 ```
 
 - ad manager related shortcomings
-  - reporting issues???
+  - reporting issues `???`
 - no async behaviour
   - **demo#2 (gpt async tags)**
     - [final page](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/async-tags.html)
+      - intro page, normal loading with blocker script `don't wait`
+      - first wait `DOMContentLoaded` event then load ads `wait for dom`
+      - first wait `load` event then load ads `wait for load`
 
 ### Number of Variations (2.1)
 
@@ -78,8 +87,9 @@ site
   - project status (status related to project management)
   - cretive design related issues
   - ad integration to AMP pages
-- all parties are related to each other, but some parties communicate
-- advertiser's problem is developer's problem
+  - ... endless unrelated questions ... :)
+- all parties relate to each other, but some parties communicate
+- advertisers' problem is developer's problem
 - dt boosts:
   - physical disadvantage
   - communication channel expands
@@ -94,8 +104,8 @@ site
 - documented but! [http://xdfp.westeurope.cloudapp.azure.com/docs/reference](http://xdfp.westeurope.cloudapp.azure.com/docs/reference)
 - not scalable, expands to unknown
 - not-measured
-  - by development
-  - by traffickers
+  - by development (# of bugs resolved, build times, # of features released, ...)
+  - by traffickers (how technicacl changes & features affected sales & ad consumption, ...)
 - customization hell
 
 ![dygdfp-git-workflow](https://docs.google.com/drawings/d/e/2PACX-1vRkMWMF1TXc8leTetl_vLc-uEfavnIFR6Sr4wVOcnKJkOvipTtJr4qZlDBacyIDaN9c-BI1cSFCDzt6/pub?w=1265&h=807)
