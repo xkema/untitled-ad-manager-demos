@@ -94,7 +94,7 @@ site
   - physical disadvantage
   - communication channel expands
 
-## Code Base Related Issues (5)
+## Code Base & Site Related Issues (5)
 
 - git flow
 - `%6` test coverage
@@ -107,6 +107,8 @@ site
   - by development (# of bugs resolved, build times, # of features released, ...)
   - by traffickers (how technicacl changes & features affected sales & ad consumption, ...)
 - customization hell
+- inconsistencies among `production` sites and `staging` versions
+- slow `staging` sites
 
 ![dygdfp-git-workflow](https://docs.google.com/drawings/d/e/2PACX-1vRkMWMF1TXc8leTetl_vLc-uEfavnIFR6Sr4wVOcnKJkOvipTtJr4qZlDBacyIDaN9c-BI1cSFCDzt6/pub?w=1265&h=807)
 

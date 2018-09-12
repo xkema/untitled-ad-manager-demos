@@ -108,6 +108,8 @@ Specifics of the order; total numbers of impressions, ad units, date, targeting 
 
 Actual display files of the advertisement campaign. Possible types; Image, HTML5, 3rd Party, DoubleClick Tag etc..
 
+See the restaurant analogy in [Appendix](#appendix) section
+
 ### An Ad Request Lifecycle
 
 - Request reaches Ad Manager
@@ -123,7 +125,7 @@ Communication of an ad server through some custom header bidding code (as in `Cr
 
 ### Exchange Bidding
 
-Lets Ad Manager ad server communicate directly with thid-party ad exchanges in a server-to-server connection (reduces page load latency and complex publisher configuration)
+Lets Ad Manager ad server communicate directly with third-party ad exchanges in a server-to-server connection (reduces page load latency and complex publisher configuration)
 
 ### IAB
 
@@ -192,7 +194,7 @@ An open source library to build up fast & smooth mobile web pages. AMP sites are
 - serve custom rendered creatives (as in pageskin, ligatus, ...)
 - work with third parties (if there are not implemented amp versions of their services)
 - use `http` in any content or component (`https` is mandatory)
--  define custom behaviours (expand collapse buttons, resize containers, ...)
+- define custom behaviours (expand collapse buttons, resize containers, ...)
 
 ## Useful Links
 
@@ -201,3 +203,13 @@ An open source library to build up fast & smooth mobile web pages. AMP sites are
 - [https://publisheruniversity.withgoogle.com](https://publisheruniversity.withgoogle.com) [publisher university home]
 - [https://www.iab.com](https://www.iab.com) [interactive advertising bureau official site]
 - [https://dfpgpt.appspot.com](https://dfpgpt.appspot.com) [tag generator app]
+
+## Appendix
+
+### A Restaurant Analogy #1 (single restaurant)
+
+![inventory-management-single](https://docs.google.com/drawings/d/e/2PACX-1vTEg-NYBEqLqXdKQe1wNMb4ZhaEE95wi_Wq5EcQrRe8UykO_ZEhJ3pEZusTvokj8xG924laAwoNH48t/pub?w=3232&h=1777)
+
+### A Restaurant Analogy #2 (chain of restaurants)
+
+![inventory-management-multiple-sites](https://docs.google.com/drawings/d/e/2PACX-1vRZ_02_cvnyTG7aoFMx-NeB6lBtCOshkW2XRFNJE37Q2HDLtTvwNwkAQWNrc5aIj6vNG1I4eMBoSGLm/pub?w=3948&h=2193)
