@@ -51,7 +51,7 @@
                 image.classList.add('toggled-to-full');
                 image.style.maxWidth = 'unset';
                 let useWidth = window.innerWidth - fullWidthClipper;
-                if(image.naturalWidth <= (window.innerWidth - fullWidthClipper)) {
+                if(image.naturalWidth <= useWidth) {
                   useWidth = image.naturalWidth;
                 }
                 image.style.width = `${useWidth}px`;
