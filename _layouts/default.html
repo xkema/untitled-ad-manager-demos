@@ -36,7 +36,7 @@
     {% endif %}
 
     <script>
-      document.addEventListener('DOMContentLoaded', () => {
+      document.addEventListener('load', () => {
         try {
           // get all images on page
           const images = document.querySelectorAll('.markdown-body p img');
@@ -50,8 +50,12 @@
               if(!image.classList.contains('toggled-to-full')) {
                 image.classList.add('toggled-to-full');
                 image.style.maxWidth = 'unset';
-                image.style.width = `${window.innerWidth - fullWidthClipper}px`;
-                image.style.marginLeft = `-${(window.innerWidth - fullWidthClipper - document.querySelector('.markdown-body').offsetWidth) / 2 + scrollbarFixer}px`;
+                let useWidth = window.innerWidth - fullWidthClipper;
+                if(image.naturalWidth <= (window.innerWidth - fullWidthClipper)) {
+                  useWidth = image.naturalWidth;
+                }
+                image.style.width = `${useWidth}px`;
+                image.style.marginLeft = `-${(useWidth - document.querySelector('.markdown-body').offsetWidth) / 2 + scrollbarFixer}px`;
               } else {
                 image.classList.remove('toggled-to-full');
                 image.style.maxWidth = '100%';
