@@ -37,7 +37,32 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', () => {
-        console.log('altered demo!');
+        try {
+          // get all images on page
+          const images = document.querySelectorAll('.markdown-body p img');
+          // reduce full width image size by this much
+          const fullWidthClipper = 80;
+          // estimated scrollbar width
+          const scrollbarFixer = 16;
+          images.forEach((image) => {
+            image.addEventListener('click', (event) => {
+              event.preventDefault();
+              if(!image.classList.contains('toggled-to-full')) {
+                image.classList.add('toggled-to-full');
+                image.style.maxWidth = 'unset';
+                image.style.width = `${window.innerWidth - fullWidthClipper}px`;
+                image.style.marginLeft = `-${(window.innerWidth - fullWidthClipper - document.querySelector('.markdown-body').offsetWidth) / 2 + scrollbarFixer}px`;
+              } else {
+                image.classList.remove('toggled-to-full');
+                image.style.maxWidth = '100%';
+                image.style.width = 'unset';
+                image.style.marginLeft = 'unset';
+              }
+            });
+          });
+        } catch(error) {
+          console.log(error);
+        }
       });
     </script>
   </body>
