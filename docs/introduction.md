@@ -8,6 +8,8 @@ Goals to achieve:
 
 ![internal-communication-flow](https://docs.google.com/drawings/d/e/2PACX-1vSQMhk8FKMSM18S8nNvGutYmG97-i-wmiAZ419OP9_0CRvWoejuQ-Z0wK7clQIpV2yvIjup6I50ylzC/pub?w=2235&h=1800)
 
+[click to edit document](https://docs.google.com/drawings/d/1IHB4AITMpO22l9W4LAQibspxEonUvutFxekyXkplE6Q/edit)
+
 click [issues.md](./issues.md) to skip basic terms and move to issues document
 
 ## who is \_\_\_\_\_?
@@ -31,10 +33,12 @@ A full service ad serving platform, simplifies ad management utilities, provides
 - revenue optimization (enables Google AdSense and Ad Exchange to compete against other networks in real-time)
 - integrated into the overall DoubleClick family (all other ad related Google products and services)
 - Ad Manager has automatically access to publisher sites comply with Google Ads guidelines, so Ad Manager also covers Google Ads by default.
-- `what is DFP` infographic, see [source](https://lh3.googleusercontent.com/uWScjuVyc5uf-bTOxuDRMSQqzNTJ09JHjw1eR_AwEs4IrwPQXaClCNwLbqTZNDzyRVPZeaq9mYAeKl8BQi9VFKyXOGgFdhE0OyCz=s0)
+- `what is DFP` infographic
   *last accessed date: 03/09/2018*
 
 ![https://lh3.googleusercontent.com/uWScjuVyc5uf-bTOxuDRMSQqzNTJ09JHjw1eR_AwEs4IrwPQXaClCNwLbqTZNDzyRVPZeaq9mYAeKl8BQi9VFKyXOGgFdhE0OyCz=s0](https://lh3.googleusercontent.com/uWScjuVyc5uf-bTOxuDRMSQqzNTJ09JHjw1eR_AwEs4IrwPQXaClCNwLbqTZNDzyRVPZeaq9mYAeKl8BQi9VFKyXOGgFdhE0OyCz=s0)
+
+[click to see infographic source](https://publisheruniversity.withgoogle.com/dfp/en/training_content/infographic/videolibrary/5731150450393088.html?collection=DFPInfographic)
 
 ### Google Ads (formerly Google AdWords)
 
@@ -210,6 +214,10 @@ An open source library to build up fast & smooth mobile web pages. AMP sites are
 
 ![inventory-management-single](https://docs.google.com/drawings/d/e/2PACX-1vTEg-NYBEqLqXdKQe1wNMb4ZhaEE95wi_Wq5EcQrRe8UykO_ZEhJ3pEZusTvokj8xG924laAwoNH48t/pub?w=3232&h=1777)
 
+[click to edit document](https://docs.google.com/drawings/d/15FPfqJiAe_irjHyZhPMdXW8ZV4CIwhHnd5hwVl8up7w/edit)
+
 ### A Restaurant Analogy #2 (chain of restaurants)
 
 ![inventory-management-multiple-sites](https://docs.google.com/drawings/d/e/2PACX-1vRZ_02_cvnyTG7aoFMx-NeB6lBtCOshkW2XRFNJE37Q2HDLtTvwNwkAQWNrc5aIj6vNG1I4eMBoSGLm/pub?w=3948&h=2193)
+
+[click to edit document](https://docs.google.com/drawings/d/1FiwgzKgNfrLnVBZ1fhs91OJcR_xjMpY3_UCSRd7r1fc/edit)

@@ -21,6 +21,8 @@
 
 ![lifecycle-of-an-ad-slot](https://docs.google.com/drawings/d/e/2PACX-1vTiFL3QENKDnsUH7IgUYVJWuWKG1-HzV0s3jndgzhhzSso0czZDVSEzQKsuY9rR5QapkDnHA00y2C_O/pub?w=2259&h=1206)
 
+[click to edit document](https://docs.google.com/drawings/d/1onyUUagb8JxLCTqtSefUm1ojw2YVR-7DWSRwNcf8GxA/edit)
+
 - missing `<meta>` tags
 - missing ad unit tails (`*/MPU1`, `*/LDB`, `*/L-SKIN`, ...)
 - **demo#1 (gpt tags)**
@@ -111,6 +113,8 @@ site
 - slow `staging` sites
 
 ![dygdfp-git-workflow](https://docs.google.com/drawings/d/e/2PACX-1vRkMWMF1TXc8leTetl_vLc-uEfavnIFR6Sr4wVOcnKJkOvipTtJr4qZlDBacyIDaN9c-BI1cSFCDzt6/pub?w=1265&h=807)
+
+[click to edit document](https://docs.google.com/drawings/d/1JyMgxcZ_Drd36lABwJ-g9ux0bcmLN0TfN9_WqLsFOAk/edit)
 
 
 
