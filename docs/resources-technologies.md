@@ -18,5 +18,9 @@
 - `Node.js` Meta Tags Crawler
 - Azure VM/Ubuntu (`jenkins` & autodocs)
 - CDN `rocketcdn` & AWS
-- `javascript`/`HTML`/`CSS` (sass, ES6)
+- `javascript`/`HTML`/`CSS` (ES6, sass)
 - webpack & babel
+
+## A Note on Development Model Used
+
+-
