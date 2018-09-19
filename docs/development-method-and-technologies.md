@@ -27,10 +27,10 @@ Source for definitions and images: [wikipedia](https://www.wikipedia.org), [medi
 
 ### Kanban-like/Scrum-like Trials
 
-- A 1.5 developer~~s~~ team!
+- A 1.5 developer(s) team!
   - A single developer team to apply an Agile model?
 - No answer to *what*, *when* and *how much* <u>to produce</u> questions
-  - Kanban aims to manage work by balancing *what*/*when*/*how much* with current capacity by using a visualization of process (kanban board)
+  - Kanban aims to manage work by balancing *what*/*when*/*how much* to produce with current capacity by using a visualization of process (kanban board)
 - No product owner (not as in scrum po)
 - 0-planning
 - No priority sense
