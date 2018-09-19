@@ -1,4 +1,4 @@
-# Resources and Technologies
+# Development Method and Technologies
 
 ## Project Evaluation
 
