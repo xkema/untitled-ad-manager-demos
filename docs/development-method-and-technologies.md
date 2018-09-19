@@ -2,6 +2,7 @@
 
 ## Project Evaluation
 
+- **dark ages**: before current library (unmaintainable)
 - **ground zero**: early releases (unstable)
 - **current time**: ~1 year of stability
 - **ideal future**: removal of falsy stuff
