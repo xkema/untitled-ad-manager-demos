@@ -1,9 +1,9 @@
 # Case Studies
 
-## Masthead Open/Close Button
+## Masthead Open/Close Button
 
-## Prebid.js
+## Prebid.js
 
-## Video Ad on A Page
+## Video Ad on A Page
 
-## A Combined Masthead & Pageskin
+## A Combined Masthead & Pageskin
