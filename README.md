@@ -2,11 +2,11 @@
 
 A collection of demo files for ad manager related assets
 
-[home](https://xkema.github.io/untitled-ad-manager-demos) (Github Pages Home)
-
-[repository home](https://github.com/xkema/untitled-ad-manager-demos) (Github Repo Home)
+[Github Repo Home](https://github.com/xkema/untitled-ad-manager-demos)
 
 ## docs
+
+[Github Pages Home](https://xkema.github.io/untitled-ad-manager-demos)
 
 - [docs/introduction](https://xkema.github.io/untitled-ad-manager-demos/docs/introduction)
 - [docs/issues](https://xkema.github.io/untitled-ad-manager-demos/docs/issues)

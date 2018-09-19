@@ -21,7 +21,7 @@
 - `javascript`/`HTML`/`CSS` (ES6, sass)
 - webpack & babel
 
-## A Note on Development Model Used
+## A Note on Development Model Used
 
 Source for definitions and images: [wikipedia](https://www.wikipedia.org), [mediawiki](https://www.mediawiki.org)
 
