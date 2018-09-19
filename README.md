@@ -6,7 +6,8 @@ A collection of demo files for ad manager related assets
 
 - [docs/introduction](https://xkema.github.io/untitled-ad-manager-demos/docs/introduction)
 - [docs/issues](https://xkema.github.io/untitled-ad-manager-demos/docs/issues)
-- [docs/resources-technologies](https://xkema.github.io/untitled-ad-manager-demos/docs/resources-technologies)
+- [docs/development-method-and-technologies](https://xkema.github.io/untitled-ad-manager-demos/docs/development-method-and-technologies)
+- [docs/case-studies](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies)
 
 ## demos
 
