@@ -9,6 +9,8 @@
 
 ![evaluation-of-project](https://docs.google.com/drawings/d/e/2PACX-1vS2sLXByjXzz5muMDis6yWI4cjtsC3touY04nkG-nojNg_xr43WvioCsNsqyd7bq5_Mnrxu-4dh9uNe/pub?w=2349&h=866)
 
+[click to edit document](https://docs.google.com/drawings/d/1IMsgM8UM9SE1A9IE8wa2dQ3f8ehvWaXCC0AP0AYFSUs/edit)
+
 ## Technology Overview
 
 - ~~GitHub~~ VSTS Repository
