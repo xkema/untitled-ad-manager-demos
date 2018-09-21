@@ -1,6 +1,6 @@
 # Case Studies
 
-## Prebid.js
+## Prebid.js
 
 Global 3rd party firm vs. local one!
 
