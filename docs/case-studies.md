@@ -1,6 +1,6 @@
 # Case Studies
 
-## Prebid.js
+## Prebid.js
 
 Global 3rd party firm vs. local one!
 
@@ -42,7 +42,49 @@ Customized Prebid Script: [https://static.criteo.net/js/ld/publishertag.js](http
 
 ## theguardian.com/international
 
-### Initial Ad Spaces
+### Inventory
+
+<u>Same Inventory used across devices, web/tablet/mobile</u>!
+
+```bash
+59666047 / theguardian.com / international / front       / ng
+59666047 / theguardian.com / commentisfree / front       / ng
+59666047 / theguardian.com / sport         / front       / ng
+
+59666047 / theguardian.com / fashion       / front       / ng
+59666047 / theguardian.com / fashion       / subsection  / ng
+59666047 / theguardian.com / fashion       / article     / ng
+59666047 / theguardian.com / fashion       / gallery     / ng
+
+59666047 / theguardian.com / books         / front       / ng
+59666047 / theguardian.com / books         / subsection  / ng
+59666047 / theguardian.com / books         / article     / ng
+59666047 / theguardian.com / books         / interactive / ng
+
+59666047 / theguardian.com / keywords      / ng
+```
+
+----
+
+| Ad Manager ID | Network Name        | Category      | Page Type   | Tail   |
+| ------------- | ------------------- | ------------- | ----------- | ------ |
+| **59666047**  | **theguardian.com** | international | front       | **ng** |
+| **59666047**  | **theguardian.com** | commentisfree | front       | **ng** |
+| **59666047**  | **theguardian.com** | sport         | front       | **ng** |
+| -             | -                   | -             | -           | -      |
+| **59666047**  | **theguardian.com** | fashion       | front       | **ng** |
+| **59666047**  | **theguardian.com** | fashion       | subsection  | **ng** |
+| **59666047**  | **theguardian.com** | fashion       | article     | **ng** |
+| **59666047**  | **theguardian.com** | fashion       | gallery     | **ng** |
+| -             | -                   | -             | -           | -      |
+| **59666047**  | **theguardian.com** | books         | front       | **ng** |
+| **59666047**  | **theguardian.com** | books         | subsection  | **ng** |
+| **59666047**  | **theguardian.com** | books         | article     | **ng** |
+| **59666047**  | **theguardian.com** | books         | interactive | **ng** |
+| -             | -                   | -             | -           | -      |
+| **59666047**  | **theguardian.com** | keywords      | bg          | **ng** |
+
+### Initial Ad Spaces
 
 ![case-study-theguardian-empty-ad-spaces](images/case-study-theguardian-empty-ad-spaces.jpg)
 
@@ -52,7 +94,7 @@ Customized Prebid Script: [https://static.criteo.net/js/ld/publishertag.js](http
 
 ## bbc.com/turkce
 
-### Initial Ad Spaces
+### Initial Ad Spaces
 
 ![case-study-bbc-turkce-empty-ad-spaces](images/case-study-bbc-turkce-empty-ad-spaces.jpg)
 
