@@ -3,7 +3,7 @@
 ## Project Evaluation
 
 - **dark ages**: before current library (unmaintainable)
-- **ground zero**: early releases (unstable)
+- **ground zero**: early releases (unstable) [*](https://en.wikipedia.org/wiki/Ground_zero)
 - **current time**: ~1 year of stability
 - **ideal future**: removal of falsy stuff
 
@@ -23,6 +23,23 @@
 - CDN `rocketcdn` & AWS
 - `javascript`/`HTML`/`CSS` (ES6, sass)
 - webpack & babel
+
+## JavaScript Libraries (webpack output)
+
+| loader             |
+| ------------------ |
+| `dygdfp-loader.js` |
+
+| site scripts     |                     |                     |
+| ---------------- | ------------------- | ------------------- |
+| `ntv-web.js`     | `ntv-tablet.js`     | `ntv-mobile.js`     |
+| `startv-web.js`  | `startv-tablet.js`  | `startv-mobile.js`  |
+| `ntvspor-web.js` | `ntvspor-tablet.js` | `ntvspor-mobile.js` |
+| `kral-web.js`    | `kral-tablet.js`    | `kral-mobile.js`    |
+| `tlctv-web.js`   | `tlctv-tablet.js`   | `tlctv-mobile.js`   |
+| `dmax-web.js`    | `dmax-tablet.js`    | `dmax-mobile.js`    |
+
+*And staging copies of all files*
 
 ## A Note on Development Model Used
 

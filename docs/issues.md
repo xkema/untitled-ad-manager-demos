@@ -12,7 +12,7 @@
       - convert static container to sticky `toggle sticky container`
       - make site nav element sticky along with sticky container `toggle sticky navigation`
     - **don't forget to**: *<u>deactivate ad-blockers & privacy protecters for demo</u>*
-- behavioral
+- behavioral (responsive custom creatives, show/hide features, fixed elements, ...)
 - maintaining 19 different projects see [#information-architecture-related-issues-2](#information-architecture-related-issues-2)
 
 ## Information Architecture Related Issues (2)
@@ -23,7 +23,7 @@
 
 [click to edit document](https://docs.google.com/drawings/d/1onyUUagb8JxLCTqtSefUm1ojw2YVR-7DWSRwNcf8GxA/edit)
 
-- missing `<meta>` tags
+- missing `<meta>` tags (size, targeting)
 - missing ad unit tails (`*/MPU1`, `*/LDB`, `*/L-SKIN`, ...)
 - **demo#1 (gpt tags)**
   - [placing gpt ads to page by offered method](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/gpt-tags.html)
@@ -49,9 +49,10 @@ site
   |__ content-type-N
 ```
 
+- see [./case-studies#theguardiancominternational](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#theguardiancominternational)
 - ad manager related shortcomings
   - reporting issues `???`
-- no async behaviour
+- no async behaviour (as a result of missing initial data)
   - **demo#2 (gpt async tags)**
     - [final page](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/async-tags.html) (enable  network throttling on DevTools)
       - intro page, normal loading with blocker script `don't wait`
@@ -73,13 +74,15 @@ site
 - tr scenario
   - no online documentation
   - no direct support
-- globals
+- globals (see [./case-studies#prebidjs](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#prebidjs))
   - insufficient documentation
   - direct support
 - insiders\*
 - bonus system\*
 
 ## Communication & Know-How Related Issues (4)
+
+see [./case-studies#video-display-ad-on-a-page](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#video-display-ad-on-a-page) and [./case-studies#a-combined-masthead--pageskin](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#a-combined-masthead--pageskin)
 
 - why in an earth a javascript developer answers questions relates to:
   - ad operations
@@ -89,7 +92,7 @@ site
   - project status (status related to project management)
   - cretive design related issues
   - ad integration to AMP pages
-  - ... endless unrelated questions ... :)
+  - ... endless irrelevant questions ... :)
 - all parties relate to each other, but some parties communicate
 - advertisers' problem is developer's problem
 - dt boosts:
@@ -98,7 +101,7 @@ site
 
 ## Code Base & Site Related Issues (5)
 
-- git flow
+- git flow (same dev branch for all network)
 - `%6` test coverage
 - tightly coupled to current developer(s)
 - `harmonyjs` dependency

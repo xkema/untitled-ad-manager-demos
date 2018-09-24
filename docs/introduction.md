@@ -17,6 +17,10 @@ click [issues.md](./issues.md) to skip basic terms and move to issues document
 - previous dfp [repository](https://github.com/swoopertr/kodads) built by DYG, maintained by [serpilacar](https://github.com/serpilacar) (vngrs)
 - recent dfp [repository](https://github.com/vedit/dygdfp) built by [vedit](https://github.com/vedit/) (vngrs) maintained by [xkema](https://github.com/xkema) (vngrs), [alienaut](https://github.com/alienaut) (~~vngrs~~), [kagansari](https://github.com/kagansari) (vngrs)
 
+## Product Overview (`dygdfp` library)
+
+click to continue with [development-method-and-technologies.md](./development-method-and-technologies.md)
+
 ## what is \_\_\_\_\_?
 
 Sources for section content: 
@@ -88,7 +92,7 @@ See Inventory Planning section of [Help Pages](https://support.google.com/admana
 
 <u>Placement</u> is a group of ad units ogranized by a context used to reduce operational load.
 
-<u>Key-Values</u> are extra information pairs to specifically match adunit's ad tag and line items & creatives, key-values are information sets hold ***not personally identifiable*** data. Key-Values form targeting by defining specific identifiers to page or directly to an ad tag.
+<u>Key-Values</u> are extra information pairs to specifically match adunit's ad tag and line items & creatives, key-values are information sets hold ***not personally identifiable*** data. (see [Facebook fined for data breaches in Cambridge Analytica scandal](https://www.theguardian.com/technology/2018/jul/11/facebook-fined-for-data-breaches-in-cambridge-analytica-scandal)) Key-Values form targeting by defining specific identifiers to page or directly to an ad tag.
 
 ### Ad Tag
 
@@ -141,19 +145,19 @@ A nonprofit research & development consortium to help media and advertising comp
 
 The Coalition for Better Ads is a coalition to improve consumer experience with advertising. Coalition develops and implements consumer friendly ad contents by using [various research](https://www.betterads.org/research/).
 
-### SafeFrame
-
-An API enabled cross-domain `iframe`. Provides controlled communication between advertiser content and publisher content. (publisher content have to protect itself from unwanted access while providing a communication channel between these two, with this communication channel advertiser may collect data for viewability purposes or expand `iframe` size to show detailed creatives to user on demand)
-
-See SafeFrame guideline at IAB [SafeFrame Guidelines page](https://www.iab.com/guidelines/safeframe)
-
-### Friendly Frame
+### Friendly Frame
 
 An `<iframe>` eliminates; cross-site scripting limitations, iframe expanding limitations, dynamic ad size placement limitations, etc..
 
 See note from [related IAB document](https://www.iab.com/wp-content/uploads/2015/09/rich_media_ajax_best_practices.pdf):
 
 > ... the ads may make calls to document.write which interferes with the rest of an AJAX-based webpage. In order to solve these problems, the Ad Ops Council recommends a Friendly IFrame (FIF) solution...
+
+### SafeFrame
+
+An API enabled cross-domain `iframe`. Provides controlled communication between advertiser content and publisher content. (publisher content have to protect itself from unwanted access while providing a communication channel between these two, with this communication channel advertiser may collect data for viewability purposes or expand `iframe` size to show detailed creatives to user on demand)
+
+See SafeFrame guideline at IAB [SafeFrame Guidelines page](https://www.iab.com/guidelines/safeframe)
 
 ### Request Mode
 

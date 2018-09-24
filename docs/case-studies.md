@@ -28,7 +28,7 @@ Customized Prebid Script: [https://static.criteo.net/js/ld/publishertag.js](http
 
 <u>Requirements</u>:
 
-> scroll'a duyarlı, sayfa arkaplaı parametrik olarak şablon üzerinden değiştirilebilir olsun, jpeg, gif, html, iframe desteklesin
+> scroll'a duyarlı, sayfa arkaplanı parametrik olarak şablon üzerinden değiştirilebilir olsun, jpeg, gif, html, iframe desteklesin
 
 <u>Acceptance Criteria</u>:
 
