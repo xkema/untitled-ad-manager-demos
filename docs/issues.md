@@ -77,6 +77,7 @@ site
 - globals (see [./case-studies#prebidjs](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#prebidjs))
   - insufficient documentation
   - direct support
+- header bidding scripts block everything: failure of a header bidding script (`prebid.js`, `publishertag.js`) means <u>system failure</u>!
 - insiders\*
 - bonus system\*
 

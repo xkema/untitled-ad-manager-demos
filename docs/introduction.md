@@ -169,6 +169,8 @@ A single `googletag.display` method call triggers all requests by a single one, 
 
 >we don't use SRA, even if we use, lazyloading and on-demand slot creation prevents async pattern
 
+<u>Batch SRA</u> > grouping ad slots into `n` groups and sending each grouped slot's request in a single request.
+
 ### Rendering Mode
 
 <u>Asynchronous</u> allows content and ad slots to load separately. (recommended request mode by Google) Ads don't block page content and page content vice versa.
@@ -178,6 +180,18 @@ A single `googletag.display` method call triggers all requests by a single one, 
 SRA + Asynchronous combination is the recommended way.
 
 > we use asynchronous rendering mode but act like synchronous
+
+## Roadblocks
+
+Serving several creatives from a specific line item together on the same page. (tries to block other creatives) It blocks other ad slots on a page and fill them from a single line item. Roadblocks don't prevent multiple line items from being served to a webpage.
+
+*Guaranteed Roadblocks*, guarantees that <u>all creatives</u> on a line item will be served to the page. Works with single request mode and requires enabling related feature in Ad Manager. (*Admin > Global Settings > Features*) 
+
+*Non-Guaranteed Roadblocks* no need to enable Ad Manager global setting, *Display Creatives > "As many as possible"* setup 's enough to achieve non-guaranteed roadblocks.
+
+See other tagging considerations (impression counting, same size slots, frequency capping, ..) to use roadblocks here [https://support.google.com/admanager/answer/2666920?hl=en&ref_topic=2666611](https://support.google.com/admanager/answer/2666920?hl=en&ref_topic=2666611) and here [https://support.google.com/admanager/answer/177277?hl=en&ref_topic=2666611](https://support.google.com/admanager/answer/177277?hl=en&ref_topic=2666611)
+
+Roadblocks are never guaranteed at all, even if we use guaranteed version!
 
 ### Reporting
 

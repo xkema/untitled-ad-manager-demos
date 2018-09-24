@@ -21,4 +21,4 @@ A collection of demo/presentation files for ad manager related assets
 
 > Ne olursa olsun siteye trafik çekelim diyen medya kuruluşları, okuru tık tuzaklarına düşürmekle hem haberciliği öldürdüklerini hem de marka itibarlarına zarar verdiklerini umursamıyorlar bile.
 
-http://p24blog.org/yazarlar/1886/bir--tik--ugruna-biten-habercilik
+[http://p24blog.org/yazarlar/1886/bir--tik--ugruna-biten-habercilik](http://p24blog.org/yazarlar/1886/bir--tik--ugruna-biten-habercilik)
