@@ -31,6 +31,7 @@
   - [placing gpt ads to page by offered method](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/gpt-tags.html)
     - show code blocks for tags `toggle code snippets`
   - [tag generator app](https://dfpgpt.appspot.com), [pre-configured](https://dfpgpt.appspot.com/g/+5dHXG-ng) tags with demo network
+- ia layout of a single site (content-types)
 
 ```
 # single site ia layout
