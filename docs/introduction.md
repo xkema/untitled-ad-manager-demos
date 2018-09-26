@@ -145,7 +145,7 @@ A nonprofit research & development consortium to help media and advertising comp
 
 The Coalition for Better Ads is a coalition to improve consumer experience with advertising. Coalition develops and implements consumer friendly ad contents by using [various research](https://www.betterads.org/research/).
 
-### Friendly Frame
+### Friendly Frame
 
 An `<iframe>` eliminates; cross-site scripting limitations, iframe expanding limitations, dynamic ad size placement limitations, etc..
 
