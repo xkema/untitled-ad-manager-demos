@@ -34,7 +34,7 @@
 
 - ia layout of a single site (content-types):
 
-  ```plsql
+  ```
   # single site ia layout
   site
   |__ desktop
