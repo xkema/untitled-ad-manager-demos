@@ -16,7 +16,7 @@ A collection of demo/presentation files for ad manager related assets
 
 > There’s a taxi company called **Uber**. It doesn’t own any cars.
 >
-> Journalism is also being **Uber-ized**. Increasingly, <u>*content isn’t created by journalists*</u> once employed by legacy media. It comes from freelancers, citizen journalists, bloggers and vloggers. Freelancers are being hired while experienced, older journalists are laid off.
+> Journalism is also being **Uber-ized**. Increasingly, *<u>content isn’t created by journalists</u>* once employed by legacy media. It comes from freelancers, citizen journalists, bloggers and vloggers. Freelancers are being hired while experienced, older journalists are laid off.
 
 [https://www.pbs.org/newshour/economy/what-you-dont-know-about-click-bait-journalism-could-kill-you](https://www.pbs.org/newshour/economy/what-you-dont-know-about-click-bait-journalism-could-kill-you)
 
