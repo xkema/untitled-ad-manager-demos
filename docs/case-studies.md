@@ -14,6 +14,20 @@ Customized Prebid Script: [https://static.criteo.net/js/ld/publishertag.js](http
 
 ![local-3-rd-party-docs](images/case-study-prebid-docs.jpg)
 
+## Custom Rendering of A Pageskin Creative
+
+### Normal Flow
+
+[Preview Link (normal flow)](https://www.ntv.com.tr/?google_preview=Hc54N39iu6UYmeit3QUwmYTj5AWIAYCAgKCbn8meJA&iu=37011203&gdfp_req=1&lineItemId=740515963&creativeId=115348507483)
+
+![case-study-custom-renderer-pageskin-normal](images/case-study-custom-renderer-pageskin-normal.jpg)
+
+### Psychedelic Flow
+
+[Preview Link (psychedelic link)](https://www.ntv.com.tr/?google_preview=OmMfj1e7Sp8Y5Oqt3QUw5Ibj5AWIAYCAgKCbn8nO0gE&iu=37011203&gdfp_req=1&lineItemId=740515963&creativeId=115350828043)
+
+![case-study-custom-renderer-pageskin-psychedelic](images/case-study-custom-renderer-pageskin-psychedelic.jpg)
+
 ## Video Display Ad on A Page
 
 <u>Requirements</u>:

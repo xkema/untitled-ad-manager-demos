@@ -23,8 +23,10 @@
 
 [click to edit document](https://docs.google.com/drawings/d/1onyUUagb8JxLCTqtSefUm1ojw2YVR-7DWSRwNcf8GxA/edit)
 
-- missing `<meta>` tags (size, targeting)
+- missing `<meta>` tags (includes size, targeting, tails)
 - missing ad unit tails (`*/MPU1`, `*/LDB`, `*/L-SKIN`, ...)
+- missing container id's (forced injection)
+- missing targeting data
 - **demo#1 (gpt tags)**
   - [placing gpt ads to page by offered method](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/gpt-tags.html)
     - show code blocks for tags `toggle code snippets`
@@ -50,6 +52,8 @@ site
 ```
 
 - see [./case-studies#theguardiancominternational](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#theguardiancominternational)
+- custom rendering manipulation (empty creative and custom rendering case)
+  - see [./case-studies#custom-rendering-of-a-pageskin-creative](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#custom-rendering-of-a-pageskin-creative)
 - ad manager related shortcomings
   - reporting issues `???`
 - no async behaviour (as a result of missing initial data)
