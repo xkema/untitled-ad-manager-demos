@@ -31,26 +31,27 @@
   - [placing gpt ads to page by offered method](https://xkema.github.io/untitled-ad-manager-demos/src/my-shiny-site-as-a-publisher/gpt-tags.html)
     - show code blocks for tags `toggle code snippets`
   - [tag generator app](https://dfpgpt.appspot.com), [pre-configured](https://dfpgpt.appspot.com/g/+5dHXG-ng) tags with demo network
-- ia layout of a single site (content-types)
 
-```
-# single site ia layout
-site
-|__ desktop
-  |__ content-type-1
-  |__ content-type-2
-  |__ content-type-3
-  |__ ...
-  |__ content-type-N
-|__ tablet
-  |__ content-type-1
-  |__ ...
-  |__ content-type-N
-|__ mobile
-  |__ content-type-1
-  |__ ...
-  |__ content-type-N
-```
+- ia layout of a single site (content-types):
+
+  ```plsql
+  # single site ia layout
+  site
+  |__ desktop
+    |__ content-type-1
+    |__ content-type-2
+    |__ content-type-3
+    |__ ...
+    |__ content-type-N
+  |__ tablet
+    |__ content-type-1
+    |__ ...
+    |__ content-type-N
+  |__ mobile
+    |__ content-type-1
+    |__ ...
+    |__ content-type-N
+  ```
 
 - see [./case-studies#theguardiancominternational](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#theguardiancominternational)
 - custom rendering manipulation (empty creative and custom rendering case)
