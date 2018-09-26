@@ -6,7 +6,7 @@ A collection of demo/presentation files for ad manager related assets
 
 ## preliminary reading
 
-### Bir "tık" Uğruna Biten Habercilik - Aslı Tunç
+### Bir "tık" Uğruna Biten Habercilik - Aslı Tunç
 
 > Ne olursa olsun siteye trafik çekelim diyen medya kuruluşları, okuru tık tuzaklarına düşürmekle hem haberciliği öldürdüklerini hem de marka itibarlarına zarar verdiklerini umursamıyorlar bile.
 
