@@ -87,7 +87,27 @@
 - insiders\*
 - bonus system\*
 
-## Communication & Know-How Related Issues (4)
+## Resource Related Issues (4)
+
+- downsized team, upsized workload
+- unpaid effort (all extra work in custom creatives, ad manager panel, targeting fixes, ...)
+- just save the day culture
+
+### A Maintenance Developer Story (4.1)
+
+- a deployed <u>working application</u>, <u>staging environments</u> and a <u>development environment</u>
+- creative <u>maintenance only</u>
+- try to <u>escape</u>
+- waiting to <u>define the problem</u> we're solving
+- unmanaged development team, team <u>fights</u>
+- <u>problem defined</u> (foundation for this documentation)
+- <u>decreased team size</u> (no newbies please)
+- <u>new job</u> offer
+- <u>new treaty</u> (decreased benefits compared to new  one)
+- paying <u>technical debts</u> 
+- sailing to <u>unknown</u> (a start over)
+
+## Communication & Know-How Related Issues (5)
 
 see [./case-studies#video-display-ad-on-a-page](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#video-display-ad-on-a-page) and [./case-studies#a-combined-masthead--pageskin](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#a-combined-masthead--pageskin)
 
@@ -106,7 +126,7 @@ see [./case-studies#video-display-ad-on-a-page](https://xkema.github.io/untitled
   - physical disadvantage
   - communication channel expands
 
-## Code Base & Site Related Issues (5)
+## Code Base & Site Related Issues (6)
 
 - git flow (same dev branch for all network)
 - `%6` test coverage
