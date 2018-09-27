@@ -4,6 +4,10 @@ A collection of demo/presentation files for ad manager related assets
 
 [Github Repo Home](https://github.com/xkema/untitled-ad-manager-demos)
 
+![mark-duffel-422279-unsplash.jpg](docs/images/mark-duffel-422279-unsplash.jpg)
+
+Photo by [Mark Duffel](https://unsplash.com/photos/U5y077qrMdI) on [Unsplash](https://unsplash.com/collections/155571/hustle-and-grind)
+
 ## preliminary reading
 
 ### Bir "tık" Uğruna Biten Habercilik - Aslı Tunç
