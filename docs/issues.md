@@ -55,8 +55,10 @@
 
 - see [./case-studies#theguardiancominternational](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#theguardiancominternational)
 - custom rendering manipulation (empty creative and custom rendering case)
+
   - see [./case-studies#custom-rendering-of-a-pageskin-creative](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies#custom-rendering-of-a-pageskin-creative)
 - ad manager related shortcomings
+
   - reporting issues `???`
 - no async behaviour (as a result of missing initial data)
   - **demo#2 (gpt async tags)**
@@ -120,8 +122,21 @@ see [./case-studies#video-display-ad-on-a-page](https://xkema.github.io/untitled
   - cretive design related issues
   - ad integration to AMP pages
   - ... endless irrelevant questions ... :)
+
 - all parties relate to each other, but some parties communicate
+
 - advertisers' problem is developer's problem
+
+- what is the thing that sales team sell?
+
+  > site itself, <u>not the inventory</u>! 
+
+- what is the extra thing that the operation team manage?
+
+  > creative design, inventory extending!
+
+- see ad manager roles and role management here: [https://support.google.com/admanager/answer/177403?visit_id=636736312424699196-1432868505&rd=1](https://support.google.com/admanager/answer/177403?visit_id=636736312424699196-1432868505&rd=1)
+
 - dt boosts:
   - physical disadvantage
   - communication channel expands
