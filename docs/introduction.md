@@ -92,7 +92,7 @@ See Inventory Planning section of [Help Pages](https://support.google.com/admana
 
 <u>Placement</u> is a group of ad units ogranized by a context used to reduce operational load.
 
-<u>Key-Values</u> are extra information pairs to specifically match adunit's ad tag and line items & creatives, key-values are information sets hold ***not personally identifiable*** data. (see [Facebook fined for data breaches in Cambridge Analytica scandal](https://www.theguardian.com/technology/2018/jul/11/facebook-fined-for-data-breaches-in-cambridge-analytica-scandal)) Key-Values form targeting by defining specific identifiers to page or directly to an ad tag.
+<u>Key-Values</u> are extra information pairs to specifically match adunit's ad tag and line items & creatives, key-values are information sets hold ***not personally identifiable*** data. (see [Facebook fined for data breaches in Cambridge Analytica scandal](https://www.theguardian.com/technology/2018/jul/11/facebook-fined-for-data-breaches-in-cambridge-analytica-scandal)) Key-Values form targeting by defining specific identifiers to page or directly to an ad tag
 
 ### Ad Tag
 
@@ -134,6 +134,15 @@ Communication of an ad server through some custom header bidding code (as in `Cr
 ### Exchange Bidding
 
 Lets Ad Manager ad server communicate directly with third-party ad exchanges in a server-to-server connection (reduces page load latency and complex publisher configuration)
+
+Exchange bidding, allows trusted 3rd party exchanges to compete with publisher's own ad manager and ad exchange inventory, all in one real-time auction.
+
+It is a a server-to-server integration between Ad Manager and 3rd Party Exchange, it requires a contractual relationship between parties. (publisher and ad exchange) Server-to-server connection is the main difference between header bidding. (header bidding requires a wrapper script)
+
+Yield Group is the organization of:
+
+- what inventory we're selling to the 3rd party exchanges
+- which exchanges we want to share this inventory with
 
 ### IAB
 
@@ -217,6 +226,16 @@ An open source library to build up fast & smooth mobile web pages. AMP sites are
 - work with third parties (if there are not implemented amp versions of their services)
 - use `http` in any content or component (`https` is mandatory)
 - define custom behaviours (expand collapse buttons, resize containers, ...)
+
+## Inventory Around Me
+
+Samples of an urban ad inventory around streets, public transportation etc...
+
+
+
+## A Bigger Picture
+
+![a-bigger-picture](https://docs.google.com/drawings/d/e/2PACX-1vSIse1SHK8WaoXu8qB0oT922lYxel1qczAt0Pw9SJH7i5r2tYhNmeCp7VbZ39zB8brJu336Q1vVEtEH/pub?w=3738&h=2022)
 
 ## Useful Links
 
