@@ -231,7 +231,15 @@ An open source library to build up fast & smooth mobile web pages. AMP sites are
 
 Samples of an urban ad inventory around streets, public transportation etc...
 
+![inventory-around-me-01-subway](../src/assets/img/inventory-around-me-01-subway.jpg)
 
+![inventory-around-me-02-subway.jpg](../src/assets/img/inventory-around-me-02-subway.jpg)
+
+![inventory-around-me-03-street](../src/assets/img/inventory-around-me-03-street.jpg)
+
+![inventory-around-me-04-street](../src/assets/img/inventory-around-me-04-street.jpg)
+
+![inventory-around-me-05-bus-stop](../src/assets/img/inventory-around-me-05-bus-stop.jpg)
 
 ## A Bigger Picture
 
