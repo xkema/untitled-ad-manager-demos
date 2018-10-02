@@ -8,6 +8,16 @@ A collection of demo/presentation files for ad manager related assets
 
 Photo by [Mark Duffel](https://unsplash.com/photos/U5y077qrMdI) on [Unsplash](https://unsplash.com/collections/155571/hustle-and-grind)
 
+## before you begin
+
+**Use Ad Blocker**, [getadblock.com](https://getadblock.com)
+
+![getadblock.com](https://getadblock.com/images/logo_adblock.png)
+
+**Use DuckDuckGo for further Privacy**, [duckduckgo.com](https://duckduckgo.com)
+
+![duckduckgo.com](https://duckduckgo.com/assets/logo_homepage.normal.v107.png)
+
 ## preliminary reading
 
 ### Bir "tık" Uğruna Biten Habercilik - Aslı Tunç
