@@ -42,6 +42,7 @@ Photo by [Mark Duffel](https://unsplash.com/photos/U5y077qrMdI) on [Unsplash](ht
 - [docs/issues](https://xkema.github.io/untitled-ad-manager-demos/docs/issues)
 - [docs/development-method-and-technologies](https://xkema.github.io/untitled-ad-manager-demos/docs/development-method-and-technologies)
 - [docs/case-studies](https://xkema.github.io/untitled-ad-manager-demos/docs/case-studies)
+- [docs/personally-identifiable-information](https://xkema.github.io/untitled-ad-manager-demos/docs/personally-identifiable-information)
 
 ## demos
 
