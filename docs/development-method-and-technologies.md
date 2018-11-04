@@ -87,7 +87,7 @@ A ready-to-re-evaluate <u>creative prototype</u>!
 
 ![2-mature-prototype](https://upload.wikimedia.org/wikipedia/commons/0/04/Breadboard_LCD_screen.png)
 
-#### (4) This Was What They Expect
+#### (4) This Was What They Expected
 
 A ready-to-reproduce <u>creative template</u>!
 
