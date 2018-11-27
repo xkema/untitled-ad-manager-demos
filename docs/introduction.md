@@ -245,6 +245,8 @@ Samples of an urban ad inventory around streets, public transportation etc...
 
 ![a-bigger-picture](https://docs.google.com/drawings/d/e/2PACX-1vSIse1SHK8WaoXu8qB0oT922lYxel1qczAt0Pw9SJH7i5r2tYhNmeCp7VbZ39zB8brJu336Q1vVEtEH/pub?w=3738&h=2022)
 
+[click to edit document](https://docs.google.com/drawings/d/1ooNbpfyCTCPeXQGO6A12DMFzAXwyaRK62cIXxnUYRGs/edit)
+
 ## Useful Links
 
 - [https://support.google.com/admanager](https://support.google.com/admanager) [ad manager support page]
