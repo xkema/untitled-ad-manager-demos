@@ -18,6 +18,10 @@ Photo by [Mark Duffel](https://unsplash.com/photos/U5y077qrMdI) on [Unsplash](ht
 
 ![duckduckgo.com](https://duckduckgo.com/assets/logo_homepage.normal.v107.png)
 
+**Use Brave for private, secire and faster mobile experience**, [brave.com](https://brave.com)
+
+![brave.com](./src/assets/img/Brave-logo-color-RGB.png)
+
 ## preliminary reading
 
 ### Bir "tık" Uğruna Biten Habercilik - Aslı Tunç
