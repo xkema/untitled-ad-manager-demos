@@ -14,8 +14,8 @@ click [issues.md](./issues.md) to skip basic terms and move to issues document
 
 ## who is \_\_\_\_\_?
 
-- previous dfp [repository](https://github.com/swoopertr/kodads) built by DYG, maintained by [serpilacar](https://github.com/serpilacar) (vngrs)
-- recent dfp [repository](https://github.com/vedit/dygdfp) built by [vedit](https://github.com/vedit/) (vngrs) maintained by [xkema](https://github.com/xkema) (vngrs), [alienaut](https://github.com/alienaut) (~~vngrs~~), [kagansari](https://github.com/kagansari) (vngrs)
+- previous dfp [repository](https://github.com/swoopertr/kodads) built by DYG, maintained by [serpilacar](https://github.com/serpilacar) (~~vngrs~~)
+- recent dfp [repository](https://github.com/vedit/dygdfp) built by [vedit](https://github.com/vedit/) (~~vngrs~~) maintained by [xkema](https://github.com/xkema) (vngrs), [alienaut](https://github.com/alienaut) (~~vngrs~~), [kagansari](https://github.com/kagansari) (~~vngrs~~)
 
 ## Product Overview (`dygdfp` library)
 
